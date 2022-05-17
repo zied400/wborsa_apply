@@ -1,0 +1,54 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.25.0",
+    "es6-promise": "^3.3.1",
+    "express": "*",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mysql": "^2.11.1",
+    "postcss-loader": "^0.13.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
+    "soap": "*",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/node": "^7.0.0-beta.53",
+    "webpack": "^4.16.0",
+    "webpack-command": "^0.4.1"
+  }
+}

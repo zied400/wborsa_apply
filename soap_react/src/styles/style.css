@@ -1,0 +1,22 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+  font-size: 13px;
+  line-height: 20px;
+  background-color: #eee;
+}
+
+h2{
+  color: #9e9e9e;
+}
+
+
+#app {
+    max-width:1024px;
+    min-width: 400px;
+
+    margin: 0 auto;
+}
